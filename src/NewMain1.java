@@ -16,7 +16,7 @@ public class NewMain1 {
 
     public static void main(String[] args){
      ApartmentAnalyzer analyzer = new ApartmentAnalyzer();
-     analyzer.loadData("C:\\Users\\38269\\Downloads\\apartments_java.csv\\");
+     analyzer.loadData("apartments_java.csv");
      System.out.println("broj ucitanih stanova: "
              +analyzer.getNumberOfApartments()
      );
